@@ -1,10 +1,10 @@
-﻿using Clean.Architecture.Core.ProjectAggregate;
-using Clean.Architecture.Core.ProjectAggregate.Specifications;
-using Clean.Architecture.SharedKernel.Interfaces;
-using Clean.Architecture.Web.ApiModels;
+﻿using TodoApp.Core.ProjectAggregate;
+using TodoApp.Core.ProjectAggregate.Specifications;
+using TodoApp.SharedKernel.Interfaces;
+using TodoApp.Web.ApiModels;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Clean.Architecture.Web.Api;
+namespace TodoApp.Web.Api;
 
 /// <summary>
 /// A sample API Controller. Consider using API Endpoints (see Endpoints folder) for a more SOLID approach to building APIs

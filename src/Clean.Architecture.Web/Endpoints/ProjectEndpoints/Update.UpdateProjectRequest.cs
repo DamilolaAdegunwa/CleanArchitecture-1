@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Clean.Architecture.Web.Endpoints.ProjectEndpoints;
+namespace TodoApp.Web.Endpoints.ProjectEndpoints;
 
 public class UpdateProjectRequest
 {

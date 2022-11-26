@@ -1,11 +1,11 @@
-﻿using Clean.Architecture.Core.ProjectAggregate;
-using Clean.Architecture.Infrastructure.Data;
+﻿using TodoApp.Core.ProjectAggregate;
+using TodoApp.Infrastructure.Data;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Moq;
 
-namespace Clean.Architecture.IntegrationTests.Data;
+namespace TodoApp.IntegrationTests.Data;
 
 public abstract class BaseEfRepoTestFixture
 {

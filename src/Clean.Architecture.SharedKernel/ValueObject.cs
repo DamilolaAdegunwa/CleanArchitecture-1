@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace Clean.Architecture.SharedKernel;
+namespace TodoApp.SharedKernel;
 
 // source: https://github.com/jhewlett/ValueObject
 public abstract class ValueObject : IEquatable<ValueObject>

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace Clean.Architecture.Web.Filters;
+namespace TodoApp.Web.Filters;
 
 /// <summary>
 /// This filter is no longer needed since [ApiController] provides this automatically for APIs.

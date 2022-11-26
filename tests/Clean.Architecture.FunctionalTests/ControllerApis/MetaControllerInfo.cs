@@ -1,7 +1,7 @@
-﻿using Clean.Architecture.Web;
+﻿using TodoApp.Web;
 using Xunit;
 
-namespace Clean.Architecture.FunctionalTests.ControllerApis;
+namespace TodoApp.FunctionalTests.ControllerApis;
 
 [Collection("Sequential")]
 public class MetaControllerInfo : IClassFixture<CustomWebApplicationFactory<WebMarker>>

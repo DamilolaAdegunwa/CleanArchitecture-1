@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Clean.Architecture.Core.Interfaces;
+namespace TodoApp.Core.Interfaces;
 
 public interface IEmailSender
 {

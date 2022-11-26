@@ -1,9 +1,9 @@
 ﻿using Ardalis.HttpClientTestExtensions;
-using Clean.Architecture.Web;
-using Clean.Architecture.Web.Endpoints.ProjectEndpoints;
+using TodoApp.Web;
+using TodoApp.Web.Endpoints.ProjectEndpoints;
 using Xunit;
 
-namespace Clean.Architecture.FunctionalTests.ApiEndpoints;
+namespace TodoApp.FunctionalTests.ApiEndpoints;
 
 [Collection("Sequential")]
 public class ProjectGetById : IClassFixture<CustomWebApplicationFactory<WebMarker>>

@@ -1,7 +1,7 @@
-﻿using Clean.Architecture.Web;
+﻿using TodoApp.Web;
 using Xunit;
 
-namespace Clean.Architecture.FunctionalTests.ControllerViews;
+namespace TodoApp.FunctionalTests.ControllerViews;
 
 [Collection("Sequential")]
 public class HomeControllerIndex : IClassFixture<CustomWebApplicationFactory<WebMarker>>
@@ -20,6 +20,6 @@ public class HomeControllerIndex : IClassFixture<CustomWebApplicationFactory<Web
     response.EnsureSuccessStatusCode();
     string stringResponse = await response.Content.ReadAsStringAsync();
 
-    Assert.Contains("Clean.Architecture.Web", stringResponse);
+    Assert.Contains("TodoApp.Web", stringResponse);
   }
 }

@@ -1,9 +1,9 @@
 ﻿using Ardalis.GuardClauses;
-using Clean.Architecture.Core.ProjectAggregate.Events;
-using Clean.Architecture.SharedKernel;
-using Clean.Architecture.SharedKernel.Interfaces;
+using TodoApp.Core.ProjectAggregate.Events;
+using TodoApp.SharedKernel;
+using TodoApp.SharedKernel.Interfaces;
 
-namespace Clean.Architecture.Core.ProjectAggregate;
+namespace TodoApp.Core.ProjectAggregate;
 
 public class Project : BaseEntity, IAggregateRoot
 {

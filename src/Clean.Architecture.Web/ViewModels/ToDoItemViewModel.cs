@@ -1,6 +1,6 @@
-﻿using Clean.Architecture.Core.ProjectAggregate;
+﻿using TodoApp.Core.ProjectAggregate;
 
-namespace Clean.Architecture.Web.ViewModels;
+namespace TodoApp.Web.ViewModels;
 
 public class ToDoItemViewModel
 {

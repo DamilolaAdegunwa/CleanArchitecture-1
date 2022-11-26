@@ -1,6 +1,6 @@
-﻿using Clean.Architecture.SharedKernel;
+﻿using TodoApp.SharedKernel;
 
-namespace Clean.Architecture.Core.ProjectAggregate.Events;
+namespace TodoApp.Core.ProjectAggregate.Events;
 
 public class NewItemAddedEvent : BaseDomainEvent
 {

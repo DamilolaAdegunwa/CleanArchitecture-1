@@ -1,10 +1,10 @@
 ﻿using Ardalis.Result;
-using Clean.Architecture.Core.Interfaces;
-using Clean.Architecture.Core.ProjectAggregate;
-using Clean.Architecture.Core.ProjectAggregate.Specifications;
-using Clean.Architecture.SharedKernel.Interfaces;
+using TodoApp.Core.Interfaces;
+using TodoApp.Core.ProjectAggregate;
+using TodoApp.Core.ProjectAggregate.Specifications;
+using TodoApp.SharedKernel.Interfaces;
 
-namespace Clean.Architecture.Core.Services;
+namespace TodoApp.Core.Services;
 
 public class ToDoItemSearchService : IToDoItemSearchService
 {

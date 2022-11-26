@@ -1,8 +1,8 @@
-﻿using Clean.Architecture.Core.ProjectAggregate;
-using Clean.Architecture.Infrastructure.Data;
+﻿using TodoApp.Core.ProjectAggregate;
+using TodoApp.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace Clean.Architecture.Web;
+namespace TodoApp.Web;
 
 public static class SeedData
 {

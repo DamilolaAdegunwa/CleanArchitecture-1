@@ -1,9 +1,9 @@
 ﻿using Ardalis.ApiEndpoints;
-using Clean.Architecture.Core.Interfaces;
+using TodoApp.Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 
-namespace Clean.Architecture.Web.Endpoints.ProjectEndpoints;
+namespace TodoApp.Web.Endpoints.ProjectEndpoints;
 
 public class ListIncomplete : BaseAsyncEndpoint
     .WithRequest<ListIncompleteRequest>

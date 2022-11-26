@@ -1,7 +1,7 @@
-﻿using Clean.Architecture.Core.ProjectAggregate;
+﻿using TodoApp.Core.ProjectAggregate;
 using Xunit;
 
-namespace Clean.Architecture.UnitTests.Core.ProjectAggregate;
+namespace TodoApp.UnitTests.Core.ProjectAggregate;
 
 public class ProjectConstructor
 {

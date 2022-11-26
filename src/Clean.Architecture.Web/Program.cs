@@ -2,10 +2,10 @@
 using Autofac;
 using Autofac.Core;
 using Autofac.Extensions.DependencyInjection;
-using Clean.Architecture.Core;
-using Clean.Architecture.Infrastructure;
-using Clean.Architecture.Infrastructure.Data;
-using Clean.Architecture.Web;
+using TodoApp.Core;
+using TodoApp.Infrastructure;
+using TodoApp.Infrastructure.Data;
+using TodoApp.Web;
 using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
 

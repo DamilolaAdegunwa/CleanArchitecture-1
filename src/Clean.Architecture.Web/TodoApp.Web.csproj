@@ -26,7 +26,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\Clean.Architecture.Infrastructure\Clean.Architecture.Infrastructure.csproj" />
+    <ProjectReference Include="..\Clean.Architecture.Infrastructure\TodoApp.Infrastructure.csproj" />
   </ItemGroup>
   
 </Project>

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Clean.Architecture.Web.Api;
+namespace TodoApp.Web.Api;
 
 /// <summary>
 /// If your API controllers will use a consistent route convention and the [ApiController] attribute (they should)

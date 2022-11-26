@@ -1,6 +1,6 @@
-﻿using Clean.Architecture.Infrastructure.Data;
-using Clean.Architecture.UnitTests;
-using Clean.Architecture.Web;
+﻿using TodoApp.Infrastructure.Data;
+using TodoApp.UnitTests;
+using TodoApp.Web;
 using MediatR;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
@@ -10,7 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Clean.Architecture.FunctionalTests;
+namespace TodoApp.FunctionalTests;
 
 public class CustomWebApplicationFactory<TStartup> : WebApplicationFactory<TStartup> where TStartup : class
 {

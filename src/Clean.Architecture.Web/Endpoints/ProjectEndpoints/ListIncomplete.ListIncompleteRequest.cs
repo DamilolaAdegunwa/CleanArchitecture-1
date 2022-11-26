@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Clean.Architecture.Web.Endpoints.ProjectEndpoints;
+namespace TodoApp.Web.Endpoints.ProjectEndpoints;
 
 public class ListIncompleteRequest
 {

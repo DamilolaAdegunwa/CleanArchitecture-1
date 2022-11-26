@@ -1,8 +1,8 @@
 ﻿using System.Net.Mail;
-using Clean.Architecture.Core.Interfaces;
+using TodoApp.Core.Interfaces;
 using Microsoft.Extensions.Logging;
 
-namespace Clean.Architecture.Infrastructure;
+namespace TodoApp.Infrastructure;
 
 public class EmailSender : IEmailSender
 {

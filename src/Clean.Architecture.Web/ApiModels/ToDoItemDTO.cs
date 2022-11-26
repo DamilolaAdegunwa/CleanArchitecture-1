@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using Clean.Architecture.Core.ProjectAggregate;
+using TodoApp.Core.ProjectAggregate;
 
-namespace Clean.Architecture.Web.ApiModels;
+namespace TodoApp.Web.ApiModels;
 
 // ApiModel DTOs are used by ApiController classes and are typically kept in a side-by-side folder
 public class ToDoItemDTO

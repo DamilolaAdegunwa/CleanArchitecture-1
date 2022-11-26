@@ -1,8 +1,8 @@
-﻿using Clean.Architecture.Core.ProjectAggregate;
+﻿using TodoApp.Core.ProjectAggregate;
 using Microsoft.EntityFrameworkCore;
 using Xunit;
 
-namespace Clean.Architecture.IntegrationTests.Data;
+namespace TodoApp.IntegrationTests.Data;
 
 public class EfRepositoryUpdate : BaseEfRepoTestFixture
 {

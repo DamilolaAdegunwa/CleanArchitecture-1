@@ -1,8 +1,8 @@
-﻿using Clean.Architecture.Core.ProjectAggregate;
-using Clean.Architecture.Core.ProjectAggregate.Specifications;
+﻿using TodoApp.Core.ProjectAggregate;
+using TodoApp.Core.ProjectAggregate.Specifications;
 using Xunit;
 
-namespace Clean.Architecture.UnitTests.Core.Specifications;
+namespace TodoApp.UnitTests.Core.Specifications;
 
 public class IncompleteItemsSpecificationConstructor
 {

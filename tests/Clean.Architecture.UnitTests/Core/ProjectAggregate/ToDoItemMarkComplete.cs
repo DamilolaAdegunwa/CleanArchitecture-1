@@ -1,7 +1,7 @@
-﻿using Clean.Architecture.Core.ProjectAggregate.Events;
+﻿using TodoApp.Core.ProjectAggregate.Events;
 using Xunit;
 
-namespace Clean.Architecture.UnitTests.Core.ProjectAggregate;
+namespace TodoApp.UnitTests.Core.ProjectAggregate;
 
 public class ToDoItemMarkComplete
 {

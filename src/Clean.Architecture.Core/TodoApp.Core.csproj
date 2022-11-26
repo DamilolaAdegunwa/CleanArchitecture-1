@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Clean.Architecture.SharedKernel\Clean.Architecture.SharedKernel.csproj" />
+    <ProjectReference Include="..\Clean.Architecture.SharedKernel\TodoApp.SharedKernel.csproj" />
   </ItemGroup>
 
 </Project>

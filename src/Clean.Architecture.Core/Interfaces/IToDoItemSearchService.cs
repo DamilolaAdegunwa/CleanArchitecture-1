@@ -1,7 +1,7 @@
 ﻿using Ardalis.Result;
-using Clean.Architecture.Core.ProjectAggregate;
+using TodoApp.Core.ProjectAggregate;
 
-namespace Clean.Architecture.Core.Interfaces;
+namespace TodoApp.Core.Interfaces;
 
 public interface IToDoItemSearchService
 {

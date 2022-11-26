@@ -1,7 +1,7 @@
-﻿using Clean.Architecture.Core.ProjectAggregate;
+﻿using TodoApp.Core.ProjectAggregate;
 using Xunit;
 
-namespace Clean.Architecture.IntegrationTests.Data;
+namespace TodoApp.IntegrationTests.Data;
 
 public class EfRepositoryDelete : BaseEfRepoTestFixture
 {

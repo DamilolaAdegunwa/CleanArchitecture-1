@@ -1,14 +1,14 @@
 ﻿using System.Reflection;
 using Autofac;
-using Clean.Architecture.Core.Interfaces;
-using Clean.Architecture.Core.ProjectAggregate;
-using Clean.Architecture.Infrastructure.Data;
-using Clean.Architecture.SharedKernel.Interfaces;
+using TodoApp.Core.Interfaces;
+using TodoApp.Core.ProjectAggregate;
+using TodoApp.Infrastructure.Data;
+using TodoApp.SharedKernel.Interfaces;
 using MediatR;
 using MediatR.Pipeline;
 using Module = Autofac.Module;
 
-namespace Clean.Architecture.Infrastructure;
+namespace TodoApp.Infrastructure;
 
 public class DefaultInfrastructureModule : Module
 {

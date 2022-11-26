@@ -1,8 +1,8 @@
-﻿using Clean.Architecture.Core.ProjectAggregate;
+﻿using TodoApp.Core.ProjectAggregate;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Clean.Architecture.Infrastructure.Data.Config;
+namespace TodoApp.Infrastructure.Data.Config;
 
 public class ProjectConfiguration : IEntityTypeConfiguration<Project>
 {

@@ -1,7 +1,7 @@
-﻿using Clean.Architecture.Core.ProjectAggregate.Events;
-using Clean.Architecture.SharedKernel;
+﻿using TodoApp.Core.ProjectAggregate.Events;
+using TodoApp.SharedKernel;
 
-namespace Clean.Architecture.Core.ProjectAggregate;
+namespace TodoApp.Core.ProjectAggregate;
 
 public class ToDoItem : BaseEntity
 {

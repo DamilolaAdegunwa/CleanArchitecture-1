@@ -1,8 +1,8 @@
-﻿using Clean.Architecture.Infrastructure.Data;
+﻿using TodoApp.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Clean.Architecture.Infrastructure;
+namespace TodoApp.Infrastructure;
 
 public static class StartupSetup
 {

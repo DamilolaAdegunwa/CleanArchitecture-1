@@ -1,15 +1,15 @@
 ﻿using Ardalis.EFCore.Extensions;
-using Clean.Architecture.Core.ProjectAggregate;
-using Clean.Architecture.SharedKernel;
+using TodoApp.Core.ProjectAggregate;
+using TodoApp.SharedKernel;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace Clean.Architecture.Infrastructure.Data;
+namespace TodoApp.Infrastructure.Data;
 
 public class AppDbContext : DbContext
 {
   private readonly IMediator? _mediator;
-
+  //Clean.Architecture
   //public AppDbContext(DbContextOptions options) : base(options)
   //{
   //}

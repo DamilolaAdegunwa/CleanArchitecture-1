@@ -1,11 +1,11 @@
-﻿using Clean.Architecture.Core.Interfaces;
-using Clean.Architecture.Core.ProjectAggregate;
-using Clean.Architecture.Core.ProjectAggregate.Events;
-using Clean.Architecture.Core.ProjectAggregate.Handlers;
+﻿using TodoApp.Core.Interfaces;
+using TodoApp.Core.ProjectAggregate;
+using TodoApp.Core.ProjectAggregate.Events;
+using TodoApp.Core.ProjectAggregate.Handlers;
 using Moq;
 using Xunit;
 
-namespace Clean.Architecture.UnitTests.Core.Handlers;
+namespace TodoApp.UnitTests.Core.Handlers;
 
 public class ItemCompletedEmailNotificationHandlerHandle
 {

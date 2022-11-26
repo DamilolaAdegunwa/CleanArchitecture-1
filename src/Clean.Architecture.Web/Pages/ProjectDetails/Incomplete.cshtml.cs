@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Clean.Architecture.Core.ProjectAggregate;
-using Clean.Architecture.Core.ProjectAggregate.Specifications;
-using Clean.Architecture.SharedKernel.Interfaces;
+using TodoApp.Core.ProjectAggregate;
+using TodoApp.Core.ProjectAggregate.Specifications;
+using TodoApp.SharedKernel.Interfaces;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Clean.Architecture.Web.Pages.ToDoRazorPage;
+namespace TodoApp.Web.Pages.ToDoRazorPage;
 
 public class IncompleteModel : PageModel
 {

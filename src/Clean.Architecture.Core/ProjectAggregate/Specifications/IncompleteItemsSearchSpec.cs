@@ -1,6 +1,6 @@
 ﻿using Ardalis.Specification;
 
-namespace Clean.Architecture.Core.ProjectAggregate.Specifications;
+namespace TodoApp.Core.ProjectAggregate.Specifications;
 
 public class IncompleteItemsSearchSpec : Specification<ToDoItem>
 {

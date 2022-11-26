@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Clean.Architecture.Web.Api;
+namespace TodoApp.Web.Api;
 
 public class MetaController : BaseApiController
 {

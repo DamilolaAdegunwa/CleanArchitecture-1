@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace Clean.Architecture.UnitTests;
+namespace TodoApp.UnitTests;
 
 public class NoOpMediator : IMediator
 {

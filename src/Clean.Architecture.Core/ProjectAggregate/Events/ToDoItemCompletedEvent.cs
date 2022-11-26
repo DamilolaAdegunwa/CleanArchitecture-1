@@ -1,7 +1,7 @@
-﻿using Clean.Architecture.Core.ProjectAggregate;
-using Clean.Architecture.SharedKernel;
+﻿using TodoApp.Core.ProjectAggregate;
+using TodoApp.SharedKernel;
 
-namespace Clean.Architecture.Core.ProjectAggregate.Events;
+namespace TodoApp.Core.ProjectAggregate.Events;
 
 public class ToDoItemCompletedEvent : BaseDomainEvent
 {

@@ -1,6 +1,6 @@
-﻿using Clean.Architecture.Core.ProjectAggregate;
+﻿using TodoApp.Core.ProjectAggregate;
 
-namespace Clean.Architecture.UnitTests;
+namespace TodoApp.UnitTests;
 
 // Learn more about test builders:
 // https://ardalis.com/improve-tests-with-the-builder-pattern-for-test-data

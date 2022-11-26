@@ -1,9 +1,9 @@
 ﻿using Ardalis.HttpClientTestExtensions;
-using Clean.Architecture.Web;
-using Clean.Architecture.Web.ApiModels;
+using TodoApp.Web;
+using TodoApp.Web.ApiModels;
 using Xunit;
 
-namespace Clean.Architecture.FunctionalTests.ControllerApis;
+namespace TodoApp.FunctionalTests.ControllerApis;
 
 [Collection("Sequential")]
 public class ProjectCreate : IClassFixture<CustomWebApplicationFactory<WebMarker>>

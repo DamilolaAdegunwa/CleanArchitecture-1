@@ -1,4 +1,4 @@
-﻿namespace Clean.Architecture.Core.ProjectAggregate;
+﻿namespace TodoApp.Core.ProjectAggregate;
 
 public enum ProjectStatus
 {

@@ -20,7 +20,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\Clean.Architecture.Core\Clean.Architecture.Core.csproj" />
-    <ProjectReference Include="..\Clean.Architecture.SharedKernel\Clean.Architecture.SharedKernel.csproj" />
+    <ProjectReference Include="..\Clean.Architecture.Core\TodoApp.Core.csproj" />
+    <ProjectReference Include="..\Clean.Architecture.SharedKernel\TodoApp.SharedKernel.csproj" />
   </ItemGroup>
 </Project>

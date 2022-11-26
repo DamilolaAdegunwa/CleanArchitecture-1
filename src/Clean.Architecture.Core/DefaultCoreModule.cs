@@ -1,8 +1,8 @@
 ﻿using Autofac;
-using Clean.Architecture.Core.Interfaces;
-using Clean.Architecture.Core.Services;
+using TodoApp.Core.Interfaces;
+using TodoApp.Core.Services;
 
-namespace Clean.Architecture.Core;
+namespace TodoApp.Core;
 
 public class DefaultCoreModule : Module
 {

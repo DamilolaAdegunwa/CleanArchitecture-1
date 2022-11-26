@@ -29,7 +29,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Clean.Architecture.Web\Clean.Architecture.Web.csproj" />
+    <ProjectReference Include="..\..\src\Clean.Architecture.Web\TodoApp.Web.csproj" />
   </ItemGroup>
 
   <ItemGroup>

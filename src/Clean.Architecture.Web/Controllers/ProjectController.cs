@@ -1,10 +1,10 @@
-﻿using Clean.Architecture.Core.ProjectAggregate;
-using Clean.Architecture.Core.ProjectAggregate.Specifications;
-using Clean.Architecture.SharedKernel.Interfaces;
-using Clean.Architecture.Web.ViewModels;
+﻿using TodoApp.Core.ProjectAggregate;
+using TodoApp.Core.ProjectAggregate.Specifications;
+using TodoApp.SharedKernel.Interfaces;
+using TodoApp.Web.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Clean.Architecture.Web.Controllers;
+namespace TodoApp.Web.Controllers;
 
 [Route("[controller]")]
 public class ProjectController : Controller

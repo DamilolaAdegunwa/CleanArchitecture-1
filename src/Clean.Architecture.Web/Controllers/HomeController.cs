@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Clean.Architecture.Web.Controllers;
+namespace TodoApp.Web.Controllers;
 
 /// <summary>
 /// A sample MVC controller that uses views.

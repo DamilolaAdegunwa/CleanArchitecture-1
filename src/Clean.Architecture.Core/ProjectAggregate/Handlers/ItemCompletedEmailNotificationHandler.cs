@@ -1,11 +1,11 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 using Ardalis.GuardClauses;
-using Clean.Architecture.Core.Interfaces;
-using Clean.Architecture.Core.ProjectAggregate.Events;
+using TodoApp.Core.Interfaces;
+using TodoApp.Core.ProjectAggregate.Events;
 using MediatR;
 
-namespace Clean.Architecture.Core.ProjectAggregate.Handlers;
+namespace TodoApp.Core.ProjectAggregate.Handlers;
 
 public class ItemCompletedEmailNotificationHandler : INotificationHandler<ToDoItemCompletedEvent>
 {

@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace Clean.Architecture.SharedKernel;
+namespace TodoApp.SharedKernel;
 
 public abstract class BaseDomainEvent : INotification
 {

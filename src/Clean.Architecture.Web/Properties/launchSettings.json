@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Clean.Architecture.Web": {
+    "TodoApp.Web": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
